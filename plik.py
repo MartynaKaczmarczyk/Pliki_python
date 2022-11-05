@@ -1,3 +1,5 @@
+import unittest
+
 n = int(input("Wpisz swoją liczbę całkowitą dodatnią: "))
 g = "*"
 spacja = " "

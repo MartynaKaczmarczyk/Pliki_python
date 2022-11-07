@@ -14,15 +14,16 @@ jobs:
           pip install -U pytest
       - run: python3 -m pytest tests.py
 
-
-import unittest
-
-class LearnTest(unittest.TestCase):
-  def setUp(self):
-      self.suma = 5("zla")
       
 suma = 2 + 5
 print(suma)
+
+class MyTestCase(unittest.TestCase):
+def testSomething():
+    suma = makeSomething()
+    assert something.name is 7
+    # ...
+
 
 
 

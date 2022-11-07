@@ -1,3 +1,13 @@
+import unittest
+
+class LearnTest(unittest.TestCase):
+  def test(self):
+    pass
+
+
+suma = 2 + 5
+print(suma)
+
 on: 
   push:
     branches: [master]
@@ -13,6 +23,3 @@ jobs:
         run: |
           pip install -U pytest
       - run: python3 -m pytest tests.py
-
-suma = 2 + 5
-print(suma)
